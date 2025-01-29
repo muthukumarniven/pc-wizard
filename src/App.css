@@ -13,3 +13,37 @@
 
 
 .my-new{font-family: "Inter-SemiBold";}
+.header-nav-items li a{font-size: 14px; color: #0A1B39;  font-family: "Inter-Regular" ; }
+.view-card-text{font-size: 14px; color: #0A1B39;  font-family: "Inter-Regular" ;}
+.header-navbar-btn{ box-shadow: none !important; }
+
+.header-navbar-btn[aria-expanded="true"] .navbar-s-icon {
+  background-image: url('./assets/images/close.svg'); 
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.header-navbar-btn[aria-expanded="false"] .navbar-s-icon {
+  background-image: url('./assets/images/bar.svg');
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.view-content-no{
+  width: 27px;
+  height: 27px;
+  flex-shrink: 0;
+  margin-right: 2px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  background: #FF6636;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Poppins-SemiBold";
+}

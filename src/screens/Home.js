@@ -1,11 +1,11 @@
 import React from 'react'
 import Images from '../assets/Images'
+import Header from '../component/Header'
 
 const Home = () => {
     return (
         <div>
-
-            <p className='my-new'>Comprehensive Computer and Network Solutions</p>
+            <Header/>
         </div>
     )
 }

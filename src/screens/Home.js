@@ -30,7 +30,6 @@ const Home = () => {
         <div className='main-banner-header ' >
             <Header />
 
-
             <div className="banner-container">
                 <div className="banner-img-container">
                     <img src={Images.banner} alt="Banner" />
@@ -49,11 +48,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
-
-
-
-
 
             <div style={{ backgroundColor: "#F5F7FA" }}>
                 <div className='banner-content-container p-0'>
@@ -227,8 +221,6 @@ const Home = () => {
                 </div>
             </div>
 
-
-
             <div className='banner-content-container p-0'>
                 <div className='u-photo-section-container'>
                     <div className='row flex-md-row flex-column-reverse align-items-center justify-content-center' >
@@ -248,7 +240,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
 
             <div style={{ backgroundColor: "#F5F7FA" }}>
                 <div className='banner-content-container p-0'>
@@ -304,7 +295,6 @@ const Home = () => {
                 </div>
             </div>
 
-
             <div className='banner-content-container p-0'>
                 <div className='u-photo-section-container'>
                     <div className='row flex-md-row flex-column-reverse d-flex align-items-center justify-content-center'>
@@ -344,7 +334,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
 
             <div style={{ backgroundColor: "#F5F7FA" }}>
                 <div className='banner-content-container p-0'>
@@ -418,8 +407,6 @@ const Home = () => {
                 </div>
             </div>
 
-
-
             <div className='banner-content-container p-0'>
                 <div className='u-photo-section-container'>
                     <div className='lets-go-container text-center'>
@@ -462,13 +449,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
 
             <Footer />
         </div>

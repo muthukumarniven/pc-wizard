@@ -253,7 +253,7 @@ font-size: 14px;
 }
 
 @media (max-width: 1300px) {.map-container img{width: 100%;}}
-@media (max-width: 768px) { .map-container img{width: 100%;} .st-s-list{padding-left: 0} .banner-text-content h1{ font-size: 49px;line-height: 58px;}.banner-discription-text{font-size: 16px;line-height: 33px;} .banner-img-container{position: absolute;right: 270px;top: 0; width: 50%; height: 100%;} .footer { padding: 15px; } .footer div .footer-list-content a { font-size: 14px; } .footer div .social-media-list-items .app-download-platform { max-width: 150px; height: auto; } .copy-rights-content img { width: 150px; height: auto; } }
+@media (max-width: 768px) {  .hard-ware-computer-content{ flex-direction: row; flex-wrap: wrap; }.map-container img{width: 100%;} .st-s-list{padding-left: 0} .banner-text-content h1{ font-size: 49px;line-height: 58px;}.banner-discription-text{font-size: 16px;line-height: 33px;} .banner-img-container{position: absolute;right: 270px;top: 0; width: 50%; height: 100%;} .footer { padding: 15px; } .footer div .footer-list-content a { font-size: 14px; } .footer div .social-media-list-items .app-download-platform { max-width: 150px; height: auto; } .copy-rights-content img { width: 150px; height: auto; } }
 @media (max-width: 425.98px) {.u-photo-section-container {padding: 20px;}
     .banner-text-content h1{ font-size: 26px;line-height: 37px;}.banner-discription-text{font-size: 16px;line-height: 33px;}
 }

@@ -251,8 +251,8 @@ const Home = () => {
                                     <p style={{ fontSize: "16px", color: "#4E5566" }} className='audio-video-text-content mt-md-4 mt-3'>PC Wizard offers a wide range of products, from home computers to enterprise servers and networking solutions, catering to diverse personal and business needs with reliability and quality.</p>
                                 </div>
                                 <div className='mt-md-4 mt-3'>
-                                    <div className='d-flex align-items-start justify-content-start gap-4'>
-                                        <div className='d-flex align-items-start gap-3 '>
+                                    <div className='d-flex align-items-start justify-content-start hard-ware-computer-content gap-4'>
+                                        <div className='d-flex align-items-start  gap-3 '>
                                             <img
                                                 src={Images.hardwareOne}
                                                 alt="Gender Icon" />

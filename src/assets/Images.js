@@ -35,6 +35,8 @@ import aboutBanner from './images/about-banner.png'
 import aboutOne from './images/about-one.png'
 
 import aboutTwo from './images/about-two.png'
+import pw from './images/pw.svg'
+
 
 
 
@@ -69,7 +71,8 @@ const Images = {
     map,
     aboutBanner,
     aboutOne,
-    aboutTwo
+    aboutTwo,
+    pw
 
 
 }

@@ -59,7 +59,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-xl bg-body-tertiary shadow-sm">
                 <div className="container-fluid px-xl-5 px-3">
                     <Link to="/" className="navbar-brand loai-web-logo d-sm-block d-none" href="#"><img src={Images.logo} /></Link>
-                    <Link to="/" className="navbar-brand loai-web-logo d-sm-none d-block" href="#"><img style={{ width: "100%", height: "100%", maxWidth: "50px", maxHeight: "50px" }} src={Images.logoSm} /></Link>
+                    <Link to="/" className="navbar-brand loai-web-logo d-sm-none d-block" href="#"><img style={{ width: "100%", height: "100%", maxWidth: "50px", maxHeight: "50px" }} src={Images.pw} /></Link>
                     <div className="d-flex align-items-center gap-md-2 gap-1">
                         <div className="nav-item d-xl-none d-block" ref={mobilePopupRef}>
                             <Link className="nav-link position-relative d-flex align-items-center gap-2 view-card-text" to="#" onClick={toggleMobilePopup}>

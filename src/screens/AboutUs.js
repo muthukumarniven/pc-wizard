@@ -101,7 +101,7 @@ const AboutUs = () => {
 
                             </div>
                         </div>
-                        <div className='col-md-6 col-12 mt-md-0 mt-sm-4 mt-4'>
+                        <div className='col-md-6 col-12 mt-md-0 mt-sm-4'>
                             <img
                                 className='w-100'
                                 src={Images.aboutTwo}

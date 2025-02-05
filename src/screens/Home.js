@@ -87,12 +87,12 @@ const Home = () => {
                                 </div>
                             </li>
                             <li className="px-sm-2 px-0 list-unstyled">
-                                <div style={{ padding: "0" }} className="st-s-box w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center">
+                                <div className="st-s-box w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center">
                                     <div className="st-s-icon undefined icon-1 d-flex align-items-center justify-content-center">
                                         {/* <img src="./images/img-9.svg" alt="statements-section-img-1"> */}
                                         <img className="card-img-top" src={Images.cctv} alt="Banner" />
-                                    </div>
-                                    <h3 style={{ fontSize: "18px" }} className=" product-items">CCTV</h3>
+                                        </div>
+                                    <h3 style={{ fontSize: "18px" }} className="product-items">Computer</h3>
                                     <p className="service-content-txt mb-0">Service</p>
                                 </div>
                             </li>
@@ -104,7 +104,7 @@ const Home = () => {
 
             <div className='banner-content-container p-0'>
                 <div className='u-photo-section-container'>
-                    <div className='row flex-md-row flex-column-reverse'>
+                    <div className='row'>
                         <div className='col-md-6 col-12 mt-md-0 mt-sm-4 mt-4'>
                             <img
                                 className='w-100'
@@ -223,7 +223,7 @@ const Home = () => {
 
             <div className='banner-content-container p-0'>
                 <div className='u-photo-section-container'>
-                    <div className='row flex-md-row flex-column-reverse align-items-center justify-content-center' >
+                    <div className='row align-items-center justify-content-center' >
                         <div className='col-md-6 col-12 mt-md-0 mt-sm-4 mt-4 d-flex align-items-center justify-content-center'>
                             <img
                                 className='w-100'
@@ -297,7 +297,7 @@ const Home = () => {
 
             <div className='banner-content-container p-0'>
                 <div className='u-photo-section-container'>
-                    <div className='row flex-md-row flex-column-reverse d-flex align-items-center justify-content-center'>
+                    <div className='row d-flex align-items-center justify-content-center'>
                         <div className='col-md-6 col-12 mt-md-0 mt-sm-4 mt-4 d-flex align-items-center justify-content-center'>
                             <img
                                 className='w-100'
@@ -412,7 +412,7 @@ const Home = () => {
                     <div className='lets-go-container text-center'>
                         <h1 style={{ fontSize: "36px", letterSpacing: "-.02em" }}>Contact Us</h1>
                     </div>
-                    <div className='row flex-md-row flex-column-reverse d-flex align-items-center justify-content-center mt-5'>
+                    <div className='row d-flex align-items-center justify-content-center mt-5'>
 
                         <div className='col-md-6 col-12 mt-md-0 mt-sm-4 mt-4 d-flex align-items-center justify-content-center map-container'>
                             <img

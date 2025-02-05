@@ -412,7 +412,7 @@ const Home = () => {
                     <div className='lets-go-container text-center'>
                         <h1 style={{ fontSize: "36px", letterSpacing: "-.02em" }}>Contact Us</h1>
                     </div>
-                    <div className='row d-flex align-items-center justify-content-center mt-5'>
+                    <div className='row  d-flex align-items-center justify-content-center mt-5'>
 
                         <div className='col-md-6 col-12 mt-md-0 mt-sm-4 mt-4 d-flex align-items-center justify-content-center map-container'>
                             <img

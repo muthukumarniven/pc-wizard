@@ -31,7 +31,10 @@ import recoveryThree from './images/recovery-three.svg'
 import recoveryFour from './images/recovery-four.svg'
 import recoveryFive from './images/recovery-five.svg'
 import map from './images/map.png'
+import aboutBanner from './images/about-banner.png'
+import aboutOne from './images/about-one.png'
 
+import aboutTwo from './images/about-two.png'
 
 
 
@@ -63,7 +66,10 @@ const Images = {
     recoveryFive,
     recoveryFour,
     recoveryThree,
-    map
+    map,
+    aboutBanner,
+    aboutOne,
+    aboutTwo
 
 
 }

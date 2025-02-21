@@ -90,7 +90,7 @@ font-size: 14px;
   display: flex;
   align-items: center;
   color: #fff;
-  overflow: hidden; /* Ensure the image doesn't overflow */
+  overflow: hidden; 
   background: #2F2E36;
 }
 
@@ -105,9 +105,9 @@ font-size: 14px;
 
 .banner-img-container {
   position: absolute;
-  right: 0; /* Position the image on the right */
+  right: 0; 
   top: 0;
-  width: 50%; /* Adjust the width as needed */
+  width: 50%; 
   height: 100%;
 }
 
@@ -196,8 +196,6 @@ font-size: 14px;
   font-weight: 400;
   line-height: 1.7;
   background: var(--white);
-  /* border-radius: 12px; */
-  /* box-shadow: 0 4px 38px rgba(0, 0, 0, .14); */
   background-color: #fff;
 }
 
@@ -213,20 +211,8 @@ font-size: 14px;
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
   margin-top: 6px;
 }
-
-
-
-.map-container{
-  width: 100%;
-}
-
-
-
-
-
-.img-conatiner-banner{
-  width: 476px;
-}
+.map-container{width: 100%;}
+.img-conatiner-banner{width: 476px;}
 
 
 .messageInput { width: 100%; height: 120px; border: 1px solid rgb(233, 234, 240); border-radius: 4px; padding: 10px; font-size: 12px; outline: none; resize: none; font-family: "Poppins-Regular"; }
@@ -234,9 +220,121 @@ font-size: 14px;
 .about-two{max-width: 60px;height: 60px;object-fit: cover;border-radius: 100%;flex-shrink: 0; line-height: 1;border-radius: 50%;}
 
 .label-text{ font-family: "Inter-Regular" ;font-size: 14px;}
-
-
 .get-in-content{font-family: "Inter-Regular" ;font-size: 24px;}
+.checkout-header{background-color: #F5F7FA;padding: 35px;}
+.checkout-text{font-size: 19px;font-family: "Inter-SemiBold";}
+.checkout-container{margin-top: 16px;}
+.checkout-container img{height:15px ; margin-left: 8px; margin-right: 8px;}
+.billing-a-text{text-decoration: none;color: #7D7D7D; font-size: 14px;  font-family: "Inter-Regular" ; }
+.check-text{text-decoration: none;color: #1D2026; font-size: 14px;  font-family: "Inter-Regular" ; }
+
+
+
+
+
+
+
+
+.products-section {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Inter-SemiBold";
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  width: 100%;
+  object-fit: cover;
+  max-width: 200px;
+}
+
+.product-info {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.product-name {
+  font-size: 14px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  color: #0C00FF;
+  background-color: #D4D3FF;
+  padding: 4px 6px;
+  max-width: 150px;
+  width: 100%;
+  font-family: "Inter-Medium";
+text-align: center;}
+
+.product-description {
+  color: #000000;
+  margin: 10px 0;
+  font-family: "Inter-Medium";
+font-size: 16px;
+border-bottom: 1px solid #E9EAF0;
+padding-bottom: 16px;
+}
+
+.product-price {
+  font-size: 18px;
+  color: #FF6636;
+  font-family: "Inter-SemiBold";
+
+}
+
+.service-support-text{
+  font-family: "Inter-Regular";
+  font-size: 20px;
+  line-height: 54px;
+
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .section-title {
+      font-size: 1.5rem;
+  }
+
+  .product-name {
+      font-size: 1.1rem;
+  }
+
+  .product-price {
+      font-size: 1.25rem;
+  }
+}
+
+
+
+
+
+
 
 
 
@@ -254,6 +352,7 @@ font-size: 14px;
 
 @media (max-width: 1300px) {.map-container img{width: 100%;}}
 @media (max-width: 768px) {  .hard-ware-computer-content{ flex-direction: row; flex-wrap: wrap; }.map-container img{width: 100%;} .st-s-list{padding-left: 0} .banner-text-content h1{ font-size: 49px;line-height: 58px;}.banner-discription-text{font-size: 16px;line-height: 33px;} .banner-img-container{position: absolute;right: 270px;top: 0; width: 50%; height: 100%;} .footer { padding: 15px; } .footer div .footer-list-content a { font-size: 14px; } .footer div .social-media-list-items .app-download-platform { max-width: 150px; height: auto; } .copy-rights-content img { width: 150px; height: auto; } }
-@media (max-width: 425.98px) {.u-photo-section-container {padding: 20px;}
+@media (max-width: 425.98px) {.products-section{ width: 100%;margin: 0;padding: 0;} 
+.u-photo-section-container {padding: 20px;}
     .banner-text-content h1{ font-size: 26px;line-height: 37px;}.banner-discription-text{font-size: 16px;line-height: 33px;}
 }

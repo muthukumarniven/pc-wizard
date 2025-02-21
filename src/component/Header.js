@@ -95,16 +95,17 @@ const Header = () => {
                                 <li>
                                     <Link
                                         className="nav-link text-black d-flex gap-2 text-decoration-none"
-                                        to="/create-video"
-                                        style={{ fontFamily: navi.pathname === "/create-video" ? "Inter-Bold" : "Inter-Regular" }}
+                                        to="/products"
+                                        style={{ fontFamily: navi.pathname === "/products" ? "Inter-Bold" : "Inter-Regular" }}
                                     >
                                         Products
-                                    </Link></li>
-                                <li>
-                                    <Link className="nav-link text-black d-flex gap-2 text-decoration-none" to="/sample-videos" style={{ fontFamily: navi.pathname === "/sample-videos" ? "Inter-Bold" : "Inter-Regular" }}>Service Support</Link>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link className="nav-link text-black d-flex gap-2 text-decoration-none" to="/sample-videos" style={{ fontFamily: navi.pathname === "/sample-videos" ? "Inter-Bold" : "Inter-Regular" }}>Contact Us</Link>
+                                    <Link className="nav-link text-black d-flex gap-2 text-decoration-none" to="/service-support" style={{ fontFamily: navi.pathname === "/service-support" ? "Inter-Bold" : "Inter-Regular" }}>Service Support</Link>
+                                </li>
+                                <li>
+                                    <Link className="nav-link text-black d-flex gap-2 text-decoration-none" to="/contact" style={{ fontFamily: navi.pathname === "/contact" ? "Inter-Bold" : "Inter-Regular" }}>Contact Us</Link>
                                 </li>
                                 <li className="nav-item popup-avatar-content d-xl-block d-none">
                                     <Link className="nav-link position-relative d-flex align-items-center gap-2" to="#" onClick={toggleMobilePopup}>

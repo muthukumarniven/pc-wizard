@@ -36,6 +36,12 @@ import aboutOne from './images/about-one.png'
 
 import aboutTwo from './images/about-two.png'
 import pw from './images/pw.svg'
+import splash from './images/splash.svg'
+import productImgOne from './images/product-images.png'
+
+import hp from './images/hp.png'
+import lg from './images/lg.png'
+
 
 
 
@@ -43,7 +49,10 @@ import pw from './images/pw.svg'
 
 
 const Images = {
-
+    hp,
+    lg,
+    productImgOne,
+    splash,
     banner,
     logo,
     card,

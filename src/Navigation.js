@@ -5,6 +5,7 @@ import AboutUs from './screens/AboutUs';
 import Products from './screens/Products';
 import Contact from './screens/Contact';
 import ServiceSupport from './screens/ServiceSupport';
+import ProductDetail from './screens/ProductDetail';
 
 
 export default function Navigation() {
@@ -17,6 +18,7 @@ export default function Navigation() {
                     <Route path='/products' element={<Products/>} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/service-support' element={<ServiceSupport/>}/>
+                    <Route path='/product-detail' element={<ProductDetail/>} />
                 </Routes>
             </BrowserRouter>
         </>

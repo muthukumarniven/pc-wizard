@@ -2,7 +2,6 @@ import React from 'react'
 import Header from '../component/Header'
 import SubHeader from '../component/SubHeader'
 import Images from '../assets/Images'
-import Button from "../component/Button";
 import Footer from '../component/Footer';
 
 const Products = () => {
@@ -94,7 +93,7 @@ const Products = () => {
                 </div>
 
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

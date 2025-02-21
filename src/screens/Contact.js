@@ -34,15 +34,14 @@ const Contact = () => {
             />
 
             <div className='banner-content-container p-0'>
-                <div className='u-photo-section-container bg-transparent'>
-                <div className='banner-content-container p-0'>
                 <div className='u-photo-section-container'>
-                
+                    <div className='lets-go-container text-center'>
+                        <h1 style={{ fontSize: "36px", letterSpacing: "-.02em" }}>Contact Us</h1>
+                    </div>
                     <div className='row  d-flex align-items-center justify-content-center'>
 
                         <div className='col-md-6 col-12 mt-md-0 mt-sm-4 mt-4 d-flex align-items-center justify-content-center map-container'>
                             <img
-                                // className='w-100'
                                 src={Images.map}
                                 alt="Gender Icon" />
                         </div>
@@ -75,9 +74,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-                </div>
-            </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 import Images from '../assets/Images'
 import Header from '../component/Header'
-import { Link } from 'react-router-dom';
 import Footer from '../component/Footer';
 import Input from '../component/Input';
 import Button from "../component/Button";
@@ -12,9 +11,6 @@ const Home = () => {
     const [mailValue, setMailValue] = useState('')
     const [message, setMessage] = useState('');
     const [subject, setSubject] = useState('');
-
-
-
 
     const handleFullNameChange = (e) => {
         setFullName(e.target.value);
@@ -59,7 +55,6 @@ const Home = () => {
                             <li className="px-sm-2 px-0 list-unstyled">
                                 <div className="st-s-box w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center">
                                     <div className="st-s-icon undefined icon-1 d-flex align-items-center justify-content-center">
-                                        {/* <img src="./images/img-9.svg" alt="statements-section-img-1"> */}
                                         <img className="card-img-top " src={Images.laptop} alt="Banner" />
                                     </div>
                                     <h3 style={{ fontSize: "18px" }} className=" product-items">Laptop</h3>
@@ -69,7 +64,6 @@ const Home = () => {
                             <li className="px-sm-2 px-0 list-unstyled">
                                 <div className="st-s-box w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center">
                                     <div className="st-s-icon undefined icon-1 d-flex align-items-center justify-content-center">
-                                        {/* <img src="./images/img-9.svg" alt="statements-section-img-1"> */}
                                         <img className="card-img-top" src={Images.printers} alt="Banner" />
                                     </div>
                                     <h3 style={{ fontSize: "18px" }} className=" product-items">Printers</h3>
@@ -79,7 +73,6 @@ const Home = () => {
                             <li className="px-sm-2 px-0 list-unstyled">
                                 <div className="st-s-box w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center">
                                     <div className="st-s-icon undefined icon-1 d-flex align-items-center justify-content-center">
-                                        {/* <img src="./images/img-9.svg" alt="statements-section-img-1"> */}
                                         <img className="card-img-top" src={Images.computer} alt="Banner" />
                                     </div>
                                     <h3 style={{ fontSize: "18px" }} className="product-items">Computer</h3>
@@ -89,7 +82,6 @@ const Home = () => {
                             <li className="px-sm-2 px-0 list-unstyled">
                                 <div className="st-s-box w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center">
                                     <div className="st-s-icon undefined icon-1 d-flex align-items-center justify-content-center">
-                                        {/* <img src="./images/img-9.svg" alt="statements-section-img-1"> */}
                                         <img className="card-img-top" src={Images.cctv} alt="Banner" />
                                         </div>
                                     <h3 style={{ fontSize: "18px" }} className="product-items">Computer</h3>
@@ -170,7 +162,6 @@ const Home = () => {
                             <li className="px-sm-2 px-0 list-unstyled">
                                 <div className="st-s-box w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center">
                                     <div className="st-s-icon undefined icon-1 d-flex align-items-center justify-content-center">
-                                        {/* <img src="./images/img-9.svg" alt="statements-section-img-1"> */}
                                         <img src={Images.assemble} alt="Banner" />
                                     </div>
                                     <h3 className=" product-items">Assembled</h3>
@@ -183,7 +174,6 @@ const Home = () => {
                             <li className="px-sm-2 px-0 list-unstyled">
                                 <div className="st-s-box w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center">
                                     <div className="st-s-icon undefined icon-1 d-flex align-items-center justify-content-center">
-                                        {/* <img src="./images/img-9.svg" alt="statements-section-img-1"> */}
                                         <img src={Images.maintenance} alt="Banner" />
                                     </div>
                                     <h3 className=" product-items">Maintenance & Servicing</h3>
@@ -195,7 +185,6 @@ const Home = () => {
                             <li className="px-sm-2 px-0 list-unstyled">
                                 <div className="st-s-box w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center">
                                     <div className="st-s-icon undefined icon-1 d-flex align-items-center justify-content-center">
-                                        {/* <img src="./images/img-9.svg" alt="statements-section-img-1"> */}
                                         <img src={Images.arrival} alt="Banner" />
                                     </div>
                                     <h3 className="product-items">New arrival</h3>
@@ -207,7 +196,6 @@ const Home = () => {
                             <li className="px-sm-2 px-0 list-unstyled">
                                 <div className="st-s-box w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center">
                                     <div className="st-s-icon undefined icon-1 d-flex align-items-center justify-content-center">
-                                        {/* <img src="./images/img-9.svg" alt="statements-section-img-1"> */}
                                         <img src={Images.rental} alt="Banner" />
                                     </div>
                                     <h3 className=" product-items">Computer Rental</h3>
@@ -345,7 +333,6 @@ const Home = () => {
                             <li className="px-sm-2 px-0 list-unstyled">
                                 <div className="st-s-box w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center">
                                     <div className="st-s-icon undefined icon-1 d-flex align-items-center justify-content-center">
-                                        {/* <img src="./images/img-9.svg" alt="statements-section-img-1"> */}
                                         <img src={Images.recoveryOne} alt="Banner" />
                                     </div>
                                     <h3 className=" product-items">Partition recovery</h3>
@@ -357,7 +344,6 @@ const Home = () => {
                             <li className="px-sm-2 px-0 list-unstyled">
                                 <div className="st-s-box w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center">
                                     <div className="st-s-icon undefined icon-1 d-flex align-items-center justify-content-center">
-                                        {/* <img src="./images/img-9.svg" alt="statements-section-img-1"> */}
                                         <img src={Images.recoveryOTwo} alt="Banner" />
                                     </div>
                                     <h3 className=" product-items">Email recovery</h3>
@@ -369,7 +355,6 @@ const Home = () => {
                             <li className="px-sm-2 px-0 list-unstyled">
                                 <div className="st-s-box w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center">
                                     <div className="st-s-icon undefined icon-1 d-flex align-items-center justify-content-center">
-                                        {/* <img src="./images/img-9.svg" alt="statements-section-img-1"> */}
                                         <img src={Images.recoveryThree} alt="Banner" />
                                     </div>
                                     <h3 className="product-items">Database recovery</h3>
@@ -381,7 +366,6 @@ const Home = () => {
                             <li className="px-sm-2 px-0 list-unstyled">
                                 <div className="st-s-box w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center">
                                     <div className="st-s-icon undefined icon-1 d-flex align-items-center justify-content-center">
-                                        {/* <img src="./images/img-9.svg" alt="statements-section-img-1"> */}
                                         <img src={Images.recoveryFour} alt="Banner" />
                                     </div>
                                     <h3 className=" product-items">Hard drive recovery</h3>
@@ -393,7 +377,6 @@ const Home = () => {
                             <li className="px-sm-2 px-0 list-unstyled">
                                 <div className="st-s-box w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center">
                                     <div className="st-s-icon undefined icon-1 d-flex align-items-center justify-content-center">
-                                        {/* <img src="./images/img-9.svg" alt="statements-section-img-1"> */}
                                         <img src={Images.recoveryFive} alt="Banner" />
                                     </div>
                                     <h3 className=" product-items">File recovery</h3>
@@ -416,7 +399,6 @@ const Home = () => {
 
                         <div className='col-md-6 col-12 mt-md-0 mt-sm-4 mt-4 d-flex align-items-center justify-content-center map-container'>
                             <img
-                                // className='w-100'
                                 src={Images.map}
                                 alt="Gender Icon" />
                         </div>

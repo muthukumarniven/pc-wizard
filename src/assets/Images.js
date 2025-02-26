@@ -43,12 +43,32 @@ import hp from './images/hp.png'
 import lg from './images/lg.png'
 
 
+import mainProductDetail from './images/main-image.png'
+import productDetailOne from './images/product-detail-one.png'
+import productDetailTwo from './images/product-detail-two.png'
+import productDetailThree from './images/product-detail-three.png'
+import productDetailFour from './images/product-detail-four.png'
+import productDetailFive from './images/product-detail-five.png'
+import productDetailSix from './images/product-detail-six.png'
+import heart from './images/heart.svg'
+
+
+
+
 
 
 
 
 
 const Images = {
+    heart,
+    productDetailOne,
+    productDetailTwo,
+    productDetailThree,
+    productDetailFour,
+    productDetailFive,
+    productDetailSix,
+    mainProductDetail,
     hp,
     lg,
     productImgOne,

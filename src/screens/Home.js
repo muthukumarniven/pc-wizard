@@ -84,7 +84,7 @@ const Home = () => {
                                     <div className="st-s-icon undefined icon-1 d-flex align-items-center justify-content-center">
                                         <img className="card-img-top" src={Images.cctv} alt="Banner" />
                                         </div>
-                                    <h3 style={{ fontSize: "18px" }} className="product-items">Computer</h3>
+                                    <h3 style={{ fontSize: "18px" }} className="product-items">CCTV</h3>
                                     <p className="service-content-txt mb-0">Service</p>
                                 </div>
                             </li>

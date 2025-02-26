@@ -18,7 +18,7 @@ const ProductDetail = () => {
                                 <img src={Images.mainProductDetail} />
                             </div>
                             <ul className='list-unstyled d-flex flex-wrap justify-content-between gap-3 product-detail-list-container mt-4'>
-                                <li><img src={Images.productDetailOne} /> </li>
+                                <li className='product-list-active'><img src={Images.productDetailOne} /> </li>
                                 <li><img src={Images.productDetailTwo} /> </li>
                                 <li><img src={Images.productDetailThree} /> </li>
                                 <li><img src={Images.productDetailFour} /> </li>
